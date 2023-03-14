@@ -7,7 +7,6 @@ Details on showbags sourced from the [Easter Show website](https://www.eastersho
 - `showbags.html` - html to view sorted showbags in the browser
 
 ## Running locally
----
 
 1. Install pipenv
 2. Install dependencies from pipfile

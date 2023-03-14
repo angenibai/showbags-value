@@ -63,7 +63,7 @@ for showbag in showbags_data:
 
 text_output.close()
 
-html_output = open("showbags.html", "w")
+html_output = open("index.html", "w")
 
 for showbag in showbags_data:
     print(showbag['html'], file=html_output)
