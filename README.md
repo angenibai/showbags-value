@@ -5,3 +5,20 @@ Details on showbags sourced from the [Easter Show website](https://www.eastersho
 
 - `showbags.txt` - text file for sorted showbags with price, retail value, and value to price ratio
 - `showbags.html` - html to view sorted showbags in the browser
+
+## Running locally
+---
+
+1. Install pipenv
+2. Install dependencies from pipfile
+```
+pipenv install
+```
+3. Launch environment
+```
+pipenv shell
+```
+4. Run script to generate `showbags.txt` and `showbags.html`
+```
+python fetch_data.py
+```
