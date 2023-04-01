@@ -9,7 +9,7 @@ NUM_PAGES = 52
 SHOWBAG_DIV = "showbagsCard-content"
 SHOWBAG_NAME_HEADING = "showbagsCard-product--name"
 SHOWBAG_PRICE_SPAN = "showbagsCard-product--price"
-SHOWBAG_VALUE_DIV = "showbagsCard-description-copy--included" # retail value is in the last paragraph inside <strong> tags
+SHOWBAG_VALUE_DIV = "showbagsCard-description-copy--included"  # retail value is in the last paragraph inside <strong> tags
 
 PRICE_PATTERN = r"\d+(\.\d{2})?"
 
@@ -23,7 +23,7 @@ def extract_price(full_string):
 
 def write_to_text(showbags_data, textfile="showbags.txt"):
     text_output = open(textfile, "w")
-        
+
     for showbag in showbags_data:
         print(f"--- {showbag['name']} ---", file=text_output)
         print(f"Price: ${showbag['price']}", file=text_output)
@@ -40,16 +40,18 @@ def write_to_csv(showbags_data, csvfile="showbags.csv"):
     writer = csv.DictWriter(csv_output, fieldnames=fieldnames)
 
     writer.writeheader()
-    
+
     for showbag_row in showbags_data:
-        writer.writerow({
-            "name": showbag_row["name"],
-            "items": showbag_row["items"],
-            "retail_value": showbag_row["retail_value"],
-            "price": showbag_row["price"],
-            "value_ratio": showbag_row["value_ratio"]
-        })
-    
+        writer.writerow(
+            {
+                "name": showbag_row["name"],
+                "items": showbag_row["items"],
+                "retail_value": showbag_row["retail_value"],
+                "price": showbag_row["price"],
+                "value_ratio": showbag_row["value_ratio"],
+            }
+        )
+
     csv_output.close()
 
 
@@ -57,13 +59,14 @@ def write_to_html(showbags_data, htmlfile="index.html"):
     html_output = open(htmlfile, "w")
 
     for showbag in showbags_data:
-        print(showbag['html'], file=html_output)
+        print(showbag["html"], file=html_output)
 
     html_output.close()
 
 
 def fetch_data():
     showbags_data = []
+    unique_showbags = set()
 
     for n in range(1, NUM_PAGES + 1):
         page = requests.get(f"{SHOWBAGS_URL}/?page={n}")
@@ -74,6 +77,12 @@ def fetch_data():
         for showbag in showbags:
             name_heading = showbag.find("h3", class_=SHOWBAG_NAME_HEADING)
             name = name_heading.text.strip()
+
+            if name in unique_showbags:
+                print(f"duplicate: {name}")
+                continue
+            unique_showbags.add(name)
+
             print(f"processing: {name}")
 
             price_span = showbag.find("span", class_=SHOWBAG_PRICE_SPAN)
@@ -99,7 +108,7 @@ def fetch_data():
                 "retail_value": total_value,
                 "value_ratio": value_to_price_ratio,
                 "items": "\n".join(all_items),
-                "html": showbag
+                "html": showbag,
             }
             showbags_data.append(showbag_data)
 
