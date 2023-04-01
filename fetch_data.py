@@ -1,8 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
 import re
+import csv
 
 SHOWBAGS_URL = "https://www.eastershow.com.au/explore/showbags/"
+NUM_PAGES = 52
 
 SHOWBAG_DIV = "showbagsCard-content"
 SHOWBAG_NAME_HEADING = "showbagsCard-product--name"
@@ -11,61 +13,103 @@ SHOWBAG_VALUE_DIV = "showbagsCard-description-copy--included" # retail value is 
 
 PRICE_PATTERN = r"\d+(\.\d{2})?"
 
+
 def extract_price(full_string):
     matched = re.search(PRICE_PATTERN, full_string)
     if matched:
         return float(matched.group())
     return None
 
-showbags_data = []
 
-for n in range(1, 51):
-    page = requests.get(f"{SHOWBAGS_URL}/?page={n}")
-    soup = BeautifulSoup(page.content, "html.parser")
+def write_to_text(showbags_data, textfile="showbags.txt"):
+    text_output = open(textfile, "w")
+        
+    for showbag in showbags_data:
+        print(f"--- {showbag['name']} ---", file=text_output)
+        print(f"Price: ${showbag['price']}", file=text_output)
+        print(f"Total retail value: ${showbag['retail_value']}", file=text_output)
+        print(f"Value to price ratio: {showbag['value_ratio']}", file=text_output)
+        print(file=text_output)
 
-    showbags = soup.find_all("div", class_=SHOWBAG_DIV)
+    text_output.close()
 
-    for showbag in showbags:
-        name_heading = showbag.find("h3", class_=SHOWBAG_NAME_HEADING)
-        print(f"processing: {name_heading.text}")
 
-        price_span = showbag.find("span", class_=SHOWBAG_PRICE_SPAN)
-        price = extract_price(price_span.text)
+def write_to_csv(showbags_data, csvfile="showbags.csv"):
+    csv_output = open(csvfile, "w")
+    fieldnames = ["name", "items", "retail_value", "price", "value_ratio"]
+    writer = csv.DictWriter(csv_output, fieldnames=fieldnames)
 
-        value_div = showbag.find("div", class_=SHOWBAG_VALUE_DIV)
-        total_value_strong = value_div.find("strong")
-        total_value = extract_price(total_value_strong.text)
-
-        if not total_value or not price:
-            value_to_price_ratio = 0
-        else:
-            value_to_price_ratio = total_value / price
-
-        showbag_data = {
-            "name": name_heading.text,
-            "price": price,
-            "retail_value": total_value,
-            "value_ratio": value_to_price_ratio,
-            "html": showbag
-        }
-        showbags_data.append(showbag_data)
-
-showbags_data.sort(key=lambda x: x["value_ratio"], reverse=True)
-
-text_output = open("showbags.txt", "w")
+    writer.writeheader()
     
-for showbag in showbags_data:
-    print(f"--- {showbag['name']} ---", file=text_output)
-    print(f"Price: ${showbag['price']}", file=text_output)
-    print(f"Total retail value: ${showbag['retail_value']}", file=text_output)
-    print(f"Value to price ratio: {showbag['value_ratio']}", file=text_output)
-    print(file=text_output)
+    for showbag_row in showbags_data:
+        writer.writerow({
+            "name": showbag_row["name"],
+            "items": showbag_row["items"],
+            "retail_value": showbag_row["retail_value"],
+            "price": showbag_row["price"],
+            "value_ratio": showbag_row["value_ratio"]
+        })
+    
+    csv_output.close()
 
-text_output.close()
 
-html_output = open("index.html", "w")
+def write_to_html(showbags_data, htmlfile="index.html"):
+    html_output = open(htmlfile, "w")
 
-for showbag in showbags_data:
-    print(showbag['html'], file=html_output)
+    for showbag in showbags_data:
+        print(showbag['html'], file=html_output)
 
-html_output.close()
+    html_output.close()
+
+
+def fetch_data():
+    showbags_data = []
+
+    for n in range(1, NUM_PAGES + 1):
+        page = requests.get(f"{SHOWBAGS_URL}/?page={n}")
+        soup = BeautifulSoup(page.content, "html.parser")
+
+        showbags = soup.find_all("div", class_=SHOWBAG_DIV)
+
+        for showbag in showbags:
+            name_heading = showbag.find("h3", class_=SHOWBAG_NAME_HEADING)
+            name = name_heading.text.strip()
+            print(f"processing: {name}")
+
+            price_span = showbag.find("span", class_=SHOWBAG_PRICE_SPAN)
+            price = extract_price(price_span.text)
+
+            value_div = showbag.find("div", class_=SHOWBAG_VALUE_DIV)
+            item_paragraphs = showbag.find_all("p")[:-2]
+            all_items = [el.text for el in item_paragraphs]
+            if all_items[-1].startswith("*"):
+                all_items.pop()
+
+            total_value_strong = value_div.find("strong")
+            total_value = extract_price(total_value_strong.text)
+
+            if not total_value or not price:
+                value_to_price_ratio = 0
+            else:
+                value_to_price_ratio = total_value / price
+
+            showbag_data = {
+                "name": name,
+                "price": price,
+                "retail_value": total_value,
+                "value_ratio": value_to_price_ratio,
+                "items": "\n".join(all_items),
+                "html": showbag
+            }
+            showbags_data.append(showbag_data)
+
+    showbags_data.sort(key=lambda x: x["value_ratio"], reverse=True)
+
+    return showbags_data
+
+
+if __name__ == "__main__":
+    showbags_data = fetch_data()
+    write_to_csv(showbags_data)
+    write_to_text(showbags_data)
+    write_to_html(showbags_data)
