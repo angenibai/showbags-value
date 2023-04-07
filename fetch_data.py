@@ -22,6 +22,11 @@ def extract_price(full_string):
 
 
 def write_to_text(showbags_data, textfile="showbags.txt"):
+    """
+    Takes in a list of dictionaries containing showbag data and outputs it to a
+    text file   
+    """
+
     text_output = open(textfile, "w")
 
     for showbag in showbags_data:
@@ -61,6 +66,13 @@ def write_to_csv(showbags_data, csvfile="showbags.csv"):
 
 
 def write_to_html(showbags_data, htmlfile="index.html"):
+    """
+    Takes in a list of dictionaries containing showbag data and outputs the HTML
+    into one big HTML file.
+
+    Work in progress
+    """
+
     html_output = open(htmlfile, "w")
 
     for showbag in showbags_data:

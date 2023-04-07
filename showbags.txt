@@ -58,11 +58,6 @@ Price: $30.0
 Total retail value: $256.46
 Value to price ratio: 8.548666666666666
 
---- BUBS & TOTS ---
-Price: $30.0
-Total retail value: $234.83
-Value to price ratio: 7.827666666666667
-
 --- Sasy N Savy - Australia's Vegan Organic Skincare ---
 Price: $30.0
 Total retail value: $178.0
@@ -133,11 +128,6 @@ Price: $28.0
 Total retail value: $103.68
 Value to price ratio: 3.7028571428571433
 
---- Nobody's Bae ---
-Price: $32.0
-Total retail value: $118.45
-Value to price ratio: 3.7015625
-
 --- DB GIRL Cosmetics ---
 Price: $25.0
 Total retail value: $91.88
@@ -153,11 +143,6 @@ Price: $25.0
 Total retail value: $90.89
 Value to price ratio: 3.6356
 
---- Fantasy Art Bag ---
-Price: $15.0
-Total retail value: $51.7
-Value to price ratio: 3.4466666666666668
-
 --- Kids Kitchen ---
 Price: $22.0
 Total retail value: $73.95
@@ -168,15 +153,10 @@ Price: $32.0
 Total retail value: $107.45
 Value to price ratio: 3.3578125
 
---- AFL GWS Giants Showbag ---
-Price: $30.0
-Total retail value: $97.9
-Value to price ratio: 3.2633333333333336
-
---- Bordom Busters ---
-Price: $15.0
-Total retail value: $48.5
-Value to price ratio: 3.2333333333333334
+--- Block Tech ---
+Price: $32.0
+Total retail value: $103.6
+Value to price ratio: 3.2375
 
 --- Scunci Hair Accessories ---
 Price: $28.0
@@ -188,11 +168,6 @@ Price: $30.0
 Total retail value: $95.93
 Value to price ratio: 3.197666666666667
 
---- Fast & Furious ---
-Price: $32.0
-Total retail value: $101.4
-Value to price ratio: 3.16875
-
 --- Subway Socceroos ---
 Price: $30.0
 Total retail value: $92.82
@@ -203,20 +178,10 @@ Price: $30.0
 Total retail value: $92.35
 Value to price ratio: 3.078333333333333
 
---- White Glo Toothpaste ---
-Price: $28.0
-Total retail value: $85.4
-Value to price ratio: 3.0500000000000003
-
 --- Dinosaur Rules ---
 Price: $30.0
 Total retail value: $90.55
 Value to price ratio: 3.018333333333333
-
---- Star Wars The Empire Strikes Back ---
-Price: $30.0
-Total retail value: $89.93
-Value to price ratio: 2.997666666666667
 
 --- Harry Potter Charms #2 ---
 Price: $32.0
@@ -227,11 +192,6 @@ Value to price ratio: 2.9875
 Price: $10.0
 Total retail value: $29.7
 Value to price ratio: 2.9699999999999998
-
---- 2023 RAS Foundation AG Bag ---
-Price: $25.0
-Total retail value: $74.09
-Value to price ratio: 2.9636
 
 --- Avengers Endgame ---
 Price: $30.0
@@ -258,25 +218,10 @@ Price: $30.0
 Total retail value: $87.91
 Value to price ratio: 2.930333333333333
 
---- PINK ---
-Price: $30.0
-Total retail value: $87.89
-Value to price ratio: 2.929666666666667
-
---- The Beatles ---
-Price: $30.0
-Total retail value: $87.89
-Value to price ratio: 2.929666666666667
-
 --- House of Horror ---
 Price: $25.0
 Total retail value: $72.65
 Value to price ratio: 2.906
-
---- Avatar ---
-Price: $30.0
-Total retail value: $86.93
-Value to price ratio: 2.897666666666667
 
 --- The Simpsons HOMER ---
 Price: $30.0
@@ -297,6 +242,11 @@ Value to price ratio: 2.8875
 Price: $32.0
 Total retail value: $91.5
 Value to price ratio: 2.859375
+
+--- White Glo Toothpaste ---
+Price: $30.0
+Total retail value: $85.4
+Value to price ratio: 2.8466666666666667
 
 --- Kids Music Maker ---
 Price: $28.0
@@ -348,11 +298,6 @@ Price: $30.0
 Total retail value: $81.85
 Value to price ratio: 2.728333333333333
 
---- Star Wars The Child ---
-Price: $30.0
-Total retail value: $81.85
-Value to price ratio: 2.728333333333333
-
 --- The Simpsons Duff Beer ---
 Price: $30.0
 Total retail value: $81.85
@@ -393,20 +338,10 @@ Price: $3.0
 Total retail value: $8.0
 Value to price ratio: 2.6666666666666665
 
---- Star Wars Darth Vader ---
-Price: $30.0
-Total retail value: $79.85
-Value to price ratio: 2.6616666666666666
-
 --- Rick And Morty ---
 Price: $32.0
 Total retail value: $84.5
 Value to price ratio: 2.640625
-
---- Bertie Beetle 60th Birthday ---
-Price: $25.0
-Total retail value: $66.0
-Value to price ratio: 2.64
 
 --- Unicorn ---
 Price: $32.0
@@ -438,22 +373,17 @@ Price: $30.0
 Total retail value: $76.93
 Value to price ratio: 2.5643333333333334
 
---- Toy Story ---
-Price: $30.0
-Total retail value: $76.9
-Value to price ratio: 2.5633333333333335
-
---- Star Wars The Mandalorian ---
-Price: $30.0
-Total retail value: $76.89
-Value to price ratio: 2.563
-
 --- AC/DC ---
 Price: $30.0
 Total retail value: $76.89
 Value to price ratio: 2.563
 
 --- Elvis ---
+Price: $30.0
+Total retail value: $76.89
+Value to price ratio: 2.563
+
+--- Star Wars The Mandalorian ---
 Price: $30.0
 Total retail value: $76.89
 Value to price ratio: 2.563
@@ -528,11 +458,6 @@ Price: $32.0
 Total retail value: $78.6
 Value to price ratio: 2.45625
 
---- LOL Surprise #2 ---
-Price: $32.0
-Total retail value: $78.6
-Value to price ratio: 2.45625
-
 --- NRL Gold Coast Titans ---
 Price: $30.0
 Total retail value: $73.65
@@ -573,11 +498,6 @@ Price: $30.0
 Total retail value: $71.89
 Value to price ratio: 2.396333333333333
 
---- Guardians of the Galaxy ---
-Price: $30.0
-Total retail value: $71.85
-Value to price ratio: 2.395
-
 --- Gudetama ---
 Price: $32.0
 Total retail value: $76.55
@@ -594,11 +514,6 @@ Total retail value: $75.55
 Value to price ratio: 2.3609375
 
 --- RIP Snorter Brain Blaster Super ---
-Price: $6.0
-Total retail value: $14.0
-Value to price ratio: 2.3333333333333335
-
---- Rip Snorter Super Ripper Bag ---
 Price: $6.0
 Total retail value: $14.0
 Value to price ratio: 2.3333333333333335
@@ -628,11 +543,6 @@ Price: $32.0
 Total retail value: $74.6
 Value to price ratio: 2.33125
 
---- Sherbert Pops 'n Fizz ---
-Price: $5.0
-Total retail value: $11.5
-Value to price ratio: 2.3
-
 --- Bertie Beetle Bonanza ---
 Price: $15.0
 Total retail value: $34.4
@@ -642,11 +552,6 @@ Value to price ratio: 2.2933333333333334
 Price: $30.0
 Total retail value: $68.75
 Value to price ratio: 2.2916666666666665
-
---- Police Action Squad ---
-Price: $30.0
-Total retail value: $68.7
-Value to price ratio: 2.29
 
 --- NRL Melbourne storm ---
 Price: $30.0
@@ -674,6 +579,11 @@ Total retail value: $68.6
 Value to price ratio: 2.2866666666666666
 
 --- NRL South Sydney Rabbitohs ---
+Price: $30.0
+Total retail value: $68.6
+Value to price ratio: 2.2866666666666666
+
+--- NRL Canterbury Bulldogs ---
 Price: $30.0
 Total retail value: $68.6
 Value to price ratio: 2.2866666666666666
@@ -728,20 +638,10 @@ Price: $32.0
 Total retail value: $72.6
 Value to price ratio: 2.26875
 
---- Pokemon ---
-Price: $32.0
-Total retail value: $72.55
-Value to price ratio: 2.2671875
-
 --- Pusheen #2 ---
 Price: $32.0
 Total retail value: $72.55
 Value to price ratio: 2.2671875
-
---- Unicorn Magic ---
-Price: $30.0
-Total retail value: $67.5
-Value to price ratio: 2.25
 
 --- Candy Craze Super Bag ---
 Price: $12.5
@@ -767,11 +667,6 @@ Value to price ratio: 2.2375
 Price: $32.0
 Total retail value: $71.6
 Value to price ratio: 2.2375
-
---- Bluey ---
-Price: $32.0
-Total retail value: $71.55
-Value to price ratio: 2.2359375
 
 --- Rainbow High ---
 Price: $32.0
@@ -827,11 +722,6 @@ Value to price ratio: 2.18
 Price: $32.0
 Total retail value: $69.65
 Value to price ratio: 2.1765625
-
---- Butterbean's Cafe ---
-Price: $32.0
-Total retail value: $69.6
-Value to price ratio: 2.175
 
 --- Pokemon Squad ---
 Price: $32.0
@@ -938,11 +828,6 @@ Price: $32.0
 Total retail value: $64.65
 Value to price ratio: 2.0203125
 
---- Hello Kitty ---
-Price: $32.0
-Total retail value: $64.6
-Value to price ratio: 2.01875
-
 --- Hot Wheels ---
 Price: $32.0
 Total retail value: $64.55
@@ -1038,11 +923,6 @@ Price: $20.0
 Total retail value: $37.85
 Value to price ratio: 1.8925
 
---- Bertie Beetle Retro ---
-Price: $18.0
-Total retail value: $34.0
-Value to price ratio: 1.8888888888888888
-
 --- Emergency Rescue ---
 Price: $30.0
 Total retail value: $56.65
@@ -1053,15 +933,15 @@ Price: $16.0
 Total retail value: $30.2
 Value to price ratio: 1.8875
 
---- The Little Mermaid Bag ---
-Price: $35.0
-Total retail value: $65.7
-Value to price ratio: 1.8771428571428572
-
 --- Rude Dudes ---
 Price: $5.0
 Total retail value: $9.35
 Value to price ratio: 1.8699999999999999
+
+--- The Mandalorian Bag ---
+Price: $30.0
+Total retail value: $55.75
+Value to price ratio: 1.8583333333333334
 
 --- Mega Pony ---
 Price: $35.0
@@ -1078,11 +958,6 @@ Price: $30.0
 Total retail value: $55.7
 Value to price ratio: 1.8566666666666667
 
---- SUPER WHEELS ---
-Price: $30.0
-Total retail value: $55.65
-Value to price ratio: 1.855
-
 --- NRL State of Origin QLD ---
 Price: $30.0
 Total retail value: $55.6
@@ -1092,11 +967,6 @@ Value to price ratio: 1.8533333333333333
 Price: $10.0
 Total retail value: $18.5
 Value to price ratio: 1.85
-
---- Yupi Showbag ---
-Price: $10.0
-Total retail value: $18.45
-Value to price ratio: 1.845
 
 --- Bertie Beetle Platinum ---
 Price: $8.0
@@ -1117,11 +987,6 @@ Value to price ratio: 1.82
 Price: $30.0
 Total retail value: $54.6
 Value to price ratio: 1.82
-
---- FIDGET BIG BAG ---
-Price: $30.0
-Total retail value: $54.35
-Value to price ratio: 1.8116666666666668
 
 --- World's Biggest Jumbo ---
 Price: $25.0
@@ -1148,20 +1013,10 @@ Price: $35.0
 Total retail value: $62.3
 Value to price ratio: 1.78
 
---- Jelly Belly ---
-Price: $12.0
-Total retail value: $21.35
-Value to price ratio: 1.7791666666666668
-
 --- Bertie Beetle Diamond Deal ---
 Price: $18.0
 Total retail value: $32.0
 Value to price ratio: 1.7777777777777777
-
---- Nutella ---
-Price: $22.0
-Total retail value: $38.9
-Value to price ratio: 1.768181818181818
 
 --- Bertie Beetle Gold ---
 Price: $5.0
@@ -1188,6 +1043,11 @@ Price: $12.0
 Total retail value: $20.8
 Value to price ratio: 1.7333333333333334
 
+--- Toxic Waste ---
+Price: $10.0
+Total retail value: $17.25
+Value to price ratio: 1.725
+
 --- Cadbury Giant Freddo and Friends ---
 Price: $10.0
 Total retail value: $17.15
@@ -1203,17 +1063,7 @@ Price: $35.0
 Total retail value: $60.0
 Value to price ratio: 1.7142857142857142
 
---- Wizz Fizz Mega Fizz Bag ---
-Price: $25.0
-Total retail value: $42.75
-Value to price ratio: 1.71
-
 --- Cadbury Flake Superbag ---
-Price: $10.0
-Total retail value: $16.95
-Value to price ratio: 1.6949999999999998
-
---- Big Boss Super Bag ---
 Price: $10.0
 Total retail value: $16.95
 Value to price ratio: 1.6949999999999998
@@ -1227,6 +1077,11 @@ Value to price ratio: 1.6949999999999998
 Price: $30.0
 Total retail value: $50.7
 Value to price ratio: 1.6900000000000002
+
+--- Super Slime ---
+Price: $20.0
+Total retail value: $33.6
+Value to price ratio: 1.6800000000000002
 
 --- Big Boss Bag ---
 Price: $6.0
@@ -1373,35 +1228,30 @@ Price: $20.0
 Total retail value: $30.55
 Value to price ratio: 1.5275
 
+--- Brainlicker ---
+Price: $10.0
+Total retail value: $15.2
+Value to price ratio: 1.52
+
 --- Spiderman Bag ---
 Price: $30.0
 Total retail value: $45.6
 Value to price ratio: 1.52
-
---- Wizz Fizz Lil Fizz Bag ---
-Price: $3.5
-Total retail value: $5.3
-Value to price ratio: 1.5142857142857142
-
---- Smiths Supersnack Bag 2 ---
-Price: $12.0
-Total retail value: $18.03
-Value to price ratio: 1.5025000000000002
 
 --- Wizz Fizz Supa Fizz Bag ---
 Price: $6.0
 Total retail value: $9.0
 Value to price ratio: 1.5
 
---- Toxic Waste ---
-Price: $10.0
-Total retail value: $15.0
-Value to price ratio: 1.5
-
 --- BIG Kit Kat ---
 Price: $20.0
 Total retail value: $30.0
 Value to price ratio: 1.5
+
+--- Play-Doh Bag ---
+Price: $30.0
+Total retail value: $44.7
+Value to price ratio: 1.49
 
 --- Sourblast ---
 Price: $25.0
@@ -1412,11 +1262,6 @@ Value to price ratio: 1.486
 Price: $10.0
 Total retail value: $14.8
 Value to price ratio: 1.48
-
---- Wizz Fizz $10 Bag ---
-Price: $10.0
-Total retail value: $14.7
-Value to price ratio: 1.47
 
 --- Ninja Showbag ---
 Price: $32.0
@@ -1473,22 +1318,22 @@ Price: $20.0
 Total retail value: $28.75
 Value to price ratio: 1.4375
 
+--- All American ---
+Price: $30.0
+Total retail value: $42.9
+Value to price ratio: 1.43
+
 --- Mega Cop ---
 Price: $35.0
 Total retail value: $50.0
 Value to price ratio: 1.4285714285714286
 
---- Mega Western ---
+--- Mega Glamour ---
 Price: $35.0
 Total retail value: $50.0
 Value to price ratio: 1.4285714285714286
 
 --- Mega Chef ---
-Price: $35.0
-Total retail value: $50.0
-Value to price ratio: 1.4285714285714286
-
---- Mega Glamour ---
 Price: $35.0
 Total retail value: $50.0
 Value to price ratio: 1.4285714285714286
@@ -1508,11 +1353,6 @@ Price: $35.0
 Total retail value: $49.7
 Value to price ratio: 1.4200000000000002
 
---- TNT / KA Bluey ---
-Price: $5.0
-Total retail value: $7.05
-Value to price ratio: 1.41
-
 --- Wagon Wheels ---
 Price: $10.0
 Total retail value: $14.1
@@ -1522,11 +1362,6 @@ Value to price ratio: 1.41
 Price: $10.0
 Total retail value: $14.1
 Value to price ratio: 1.41
-
---- Ballantynes Bag ---
-Price: $12.0
-Total retail value: $16.85
-Value to price ratio: 1.4041666666666668
 
 --- Aero ($6 each OR 3 for $15 Range) ---
 Price: $6.0
@@ -1541,6 +1376,11 @@ Value to price ratio: 1.4
 --- Darrell Lea Healthy Snacking ---
 Price: $25.0
 Total retail value: $35.0
+Value to price ratio: 1.4
+
+--- Cadbury Caramilk Superbag ---
+Price: $10.0
+Total retail value: $14.0
 Value to price ratio: 1.4
 
 --- Cadbury Curly Wurly ---
@@ -1558,11 +1398,6 @@ Price: $10.0
 Total retail value: $13.9
 Value to price ratio: 1.3900000000000001
 
---- LA Basketball Bag ---
-Price: $30.0
-Total retail value: $41.7
-Value to price ratio: 1.3900000000000001
-
 --- Ghost Drops ---
 Price: $10.0
 Total retail value: $13.8
@@ -1572,11 +1407,6 @@ Value to price ratio: 1.3800000000000001
 Price: $10.0
 Total retail value: $13.8
 Value to price ratio: 1.3800000000000001
-
---- Pixar Bag ---
-Price: $35.0
-Total retail value: $47.9
-Value to price ratio: 1.3685714285714285
 
 --- New Zealand Favourites ---
 Price: $25.0
@@ -1613,11 +1443,6 @@ Price: $30.0
 Total retail value: $40.0
 Value to price ratio: 1.3333333333333333
 
---- Gabby's Dollhouse Bag ---
-Price: $35.0
-Total retail value: $46.6
-Value to price ratio: 1.3314285714285714
-
 --- Zappo ---
 Price: $6.0
 Total retail value: $7.95
@@ -1643,15 +1468,15 @@ Price: $5.0
 Total retail value: $6.6
 Value to price ratio: 1.3199999999999998
 
+--- Giant Candy ---
+Price: $20.0
+Total retail value: $26.3
+Value to price ratio: 1.315
+
 --- Cadbury Favourites ---
 Price: $20.0
 Total retail value: $26.2
 Value to price ratio: 1.31
-
---- SKITTLES Bag ---
-Price: $6.0
-Total retail value: $7.8
-Value to price ratio: 1.3
 
 --- Snickers® Super ---
 Price: $10.0
@@ -1673,11 +1498,6 @@ Price: $25.0
 Total retail value: $32.35
 Value to price ratio: 1.294
 
---- Karate Ninja Deluxe Bag ---
-Price: $30.0
-Total retail value: $38.8
-Value to price ratio: 1.2933333333333332
-
 --- Mega Princess ---
 Price: $35.0
 Total retail value: $45.0
@@ -1693,11 +1513,6 @@ Price: $12.5
 Total retail value: $16.0
 Value to price ratio: 1.28
 
---- Play-Doh Bag ---
-Price: $35.0
-Total retail value: $44.7
-Value to price ratio: 1.2771428571428571
-
 --- Chupa Chups ---
 Price: $5.0
 Total retail value: $6.35
@@ -1712,11 +1527,6 @@ Value to price ratio: 1.2666666666666666
 Price: $12.0
 Total retail value: $14.96
 Value to price ratio: 1.2466666666666668
-
---- M&M's® Super ---
-Price: $10.0
-Total retail value: $12.35
-Value to price ratio: 1.2349999999999999
 
 --- Maltesers® Super Bag ---
 Price: $10.0
@@ -1803,11 +1613,6 @@ Price: $20.0
 Total retail value: $23.75
 Value to price ratio: 1.1875
 
---- The Big Deal ---
-Price: $32.0
-Total retail value: $37.95
-Value to price ratio: 1.1859375
-
 --- The Greatest Showbag on Earth ---
 Price: $32.0
 Total retail value: $37.95
@@ -1821,11 +1626,6 @@ Value to price ratio: 1.1666666666666667
 --- Wicked Fizz ---
 Price: $6.0
 Total retail value: $7.0
-Value to price ratio: 1.1666666666666667
-
---- Sour Patch Kids ---
-Price: $15.0
-Total retail value: $17.5
 Value to price ratio: 1.1666666666666667
 
 --- Minecraft Alex Dress up Bag ---
@@ -1947,11 +1747,6 @@ Value to price ratio: 1.0333333333333334
 Price: $12.0
 Total retail value: $12.25
 Value to price ratio: 1.0208333333333333
-
---- Hubba Bubba ---
-Price: $10.0
-Total retail value: $10.2
-Value to price ratio: 1.02
 
 --- Snakes Alive ---
 Price: $15.0
