@@ -30,7 +30,7 @@ def extract_price(full_string):
 def write_to_text(showbags_data, textfile="showbags.txt"):
     """
     Takes in a list of dictionaries containing showbag data and outputs it to a
-    text file   
+    text file
     """
 
     text_output = open(textfile, "w")
@@ -48,7 +48,7 @@ def write_to_text(showbags_data, textfile="showbags.txt"):
 def write_to_csv(showbags_data, csvfile="showbags.csv"):
     """
     Takes in a list of dictionaries containing showbag data and outputs it to a
-    CSV file   
+    CSV file
     """
 
     csv_output = open(csvfile, "w")
@@ -88,6 +88,12 @@ def write_to_html(showbags_data, htmlfile="index.html"):
 
 
 def fetch_data():
+    """
+    Fetches our relevant data for all showbags on the Easter Show website.
+
+    Returns a list of dictionaries containing showbag data
+    """
+
     showbags_data = []
     unique_showbags = set()
 
