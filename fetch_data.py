@@ -6,7 +6,7 @@ import csv
 SHOWBAGS_URL = "https://www.eastershow.com.au/explore/showbags/"
 NUM_PAGES = 52
 
-SHOWBAG_DIV = "showbagsCard-content"
+SHOWBAG_DIV = "showbagsCard"
 SHOWBAG_NAME_HEADING = "showbagsCard-product--name"
 SHOWBAG_PRICE_SPAN = "showbagsCard-product--price"
 SHOWBAG_VALUE_DIV = "showbagsCard-description-copy--included"  # retail value is in the last paragraph inside <strong> tags
@@ -35,6 +35,11 @@ def write_to_text(showbags_data, textfile="showbags.txt"):
 
 
 def write_to_csv(showbags_data, csvfile="showbags.csv"):
+    """
+    Takes in a list of dictionaries containing showbag data and outputs it to a
+    CSV file   
+    """
+
     csv_output = open(csvfile, "w")
     fieldnames = ["name", "items", "retail_value", "price", "value_ratio"]
     writer = csv.DictWriter(csv_output, fieldnames=fieldnames)
