@@ -89,7 +89,8 @@ def write_to_html(showbags_data, htmlfile="index.html"):
 
 def fetch_data():
     """
-    Fetches our relevant data for all showbags on the Easter Show website.
+    Fetches our relevant data for all showbags on the Easter Show website, and sorts them by their
+    value to price ratio
 
     Returns a list of dictionaries containing showbag data
     """
